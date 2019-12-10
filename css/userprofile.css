@@ -1,0 +1,33 @@
+/*echart雷达图和词云*/
+#user1word, #poster, #filmratio, #filmdis {
+  height: 100%;
+}
+
+body {
+	background-color: #333333;
+}
+h4 {
+    font-weight: bold;
+}
+.img-row {
+    height: 47%;
+}
+.thumbnail>img {
+    max-width: 100%;
+}
+.thumbnail {
+    margin-bottom: 4px;
+}
+.thumbnail .caption {
+    padding: 2px;
+}
+.caption h4{
+    margin: 2px 2px;
+}
+.caption p {
+    margin: 0 0 2px;
+}
+
+.img-poster {
+    min-height: 222px;
+}
