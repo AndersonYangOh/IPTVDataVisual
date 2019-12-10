@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- 网页标签的图标文件地址，请自行修改-->
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>中国联通研究院云计算研究中心创新系列工作</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet" type="text/css" >
+    <link href="css/userprofile.css" rel="stylesheet" type="text/css" >
+  </head>
+
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar-nav-wrapper">
+                <ul class="nav sidebar-nav">
+                    <li role="presentation"><img src="image/logo红色.png" alt="ChinaUnicom"></li>
+                    <li role="presentation"><a href="index.html">首页</a></li>
+                    <li role="presentation" class="active"><a href="userprofile.html">用户画像</a></li>
+                    <li role="presentation"><a href="film.html">节目热度</a></li>
+                    <li role="presentation"><a href="#">标签</a></li>
+                    <li role="presentation"><a href="#">运行数据</a></li>
+                    <li role="presentation"><a href="#">其他</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 col-md-offset-2">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-md-2  col-md-offset-2 control-label">用户：</label>
+                        <div class="col-md-4">
+                            <select class="form-control bg-primary" id="userlist" title="">
+                                <option>user1</option>
+                                <option>user2</option>
+                                <option>user3</option>
+                                <option>user4</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-primary" onclick="getUserprofile()">查询</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col-md-6" id="user1word"></div>
+                    <div class="col-md-6" id="poster">
+                        <h4 class="text-primary">推荐用户观看</h4>
+                        <div class="row  img-row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-poster" src="image/阿甘正传.webp">
+                                    <div class="caption">
+                                        <h4>阿甘正传</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img  class="img-poster" src="image/肖申克的救赎.webp">
+                                    <div class="caption">
+                                        <h4>肖申克的救赎</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-poster" src="image/霸王别姬.webp">
+                                    <div class="caption">
+                                        <h4>霸王别姬</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row img-row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-poster" src="image/这个杀手不太冷.webp">
+                                    <div class="caption">
+                                        <h4>这个杀手不太冷</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-poster" src="image/千与千寻.webp">
+                                    <div class="caption">
+                                        <h4>千与千寻</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-poster" src="image/美丽人生.webp">
+                                    <div class="caption">
+                                        <h4>美丽人生</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+    <!-- 引入Echarts -->
+    <script type="text/javascript" src="js/echarts.js"></script>
+    <script type="text/javascript" src="js/echarts-wordcloud.min.js"></script>  
+    <script type="text/javascript" src="js/userprofile.js"></script> 
+     
+  </body>
+</html>
